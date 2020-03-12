@@ -214,8 +214,9 @@ def raw_data(df):
     endRow = 4
     rawDisplay = 'c'
     while rawDisplay != 'q':
-        #while initialRow <= endRow and endRow <= length(df)  - code review suggestion
-        while initialRow <= endRow:
+        #code review suggestion
+        while initialRow <= endRow and endRow <= len(df.index)
+        #while initialRow <= endRow:
             print('\nRow {}\n{}'.format(initialRow,df.iloc[initialRow,:].to_string(header=None)))
             initialRow = initialRow + 1
         rawDisplay = input('Hit Enter to continue, enter \"q\" to quit\n')
