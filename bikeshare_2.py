@@ -213,8 +213,9 @@ def raw_data(df):
     endRow = 4
     rawDisplay = 'c'
     while rawDisplay != 'q':
-        #while initialRow <= endRow and endRow <= length(df)  - code review suggestion
-        while initialRow <= endRow:
+        #code review suggestion
+        while initialRow <= endRow and endRow <= len(df.index)
+        #while initialRow <= endRow:
             print('\nRow {}\n{}'.format(initialRow,df.iloc[initialRow,:].to_string(header=None)))
             initialRow = initialRow + 1
         rawDisplay = input('Hit Enter to continue, enter \"q\" to quit\n')
@@ -235,7 +236,8 @@ def main():
 
         rawdata = input('\nWould you like to view raw data? Enter yes or no.\n')
         if rawdata.lower() == 'yes':
-            print('rawdata:',rawdata)
+            #print('Printing raw data to terminal:',rawdata)
+            print('Printing raw data to terminal:')
             raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
