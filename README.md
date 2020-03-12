@@ -12,4 +12,4 @@ Source Code: bikeshare_2.py
 Data Files: chicago.csv, new_york_city.csv, washington.csv
 
 ###Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Everything I know about git needs to be credited to Richard Kalehoff.  He deserves great credit for his patience and enthusiasm.  I am inspired by him as is tough teaching with emotion to a camera.
