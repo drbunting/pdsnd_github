@@ -237,7 +237,8 @@ def main():
 
         rawdata = input('\nWould you like to view raw data? Enter yes or no.\n')
         if rawdata.lower() == 'yes':
-            print('Printing raw data to terminal:',rawdata)
+            #print('Printing raw data to terminal:',rawdata)
+            print('Printing raw data to terminal:')
             raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
